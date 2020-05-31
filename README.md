@@ -15,4 +15,4 @@ By changing the Chord Type parameter you can change the chord "type" or "color".
 [0.875 - 1)     -> disminished
 
 Note:
-For now it has a bug, if you change the chord type while playing some notes do not receive the "note off" signal 
+For now it has a bug; if you change the chord type while playing, some notes do not receive the "note off" signal 
