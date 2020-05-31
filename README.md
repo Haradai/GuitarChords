@@ -2,7 +2,7 @@
 
 A chord generator using midi input and automatable variables.
 The plugin takes one note as midi input and generates a triad chord on top of it.
-By changing the Chord Type you can change the chord "type" or "color".
+By changing the Chord Type parameter you can change the chord "type" or "color".
 
 [0 - 0.125) -> midi passthrough (no chord)
 
