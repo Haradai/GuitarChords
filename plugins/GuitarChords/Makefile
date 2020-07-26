@@ -43,7 +43,7 @@ endif
 # --------------------------------------------------------------
 # Project name, used for binaries
 
-NAME = SimpleChordGen
+NAME = GuitarChords
 
 # --------------------------------------------------------------
 # Plugin types to build
@@ -58,7 +58,9 @@ BUILD_LADSPA ?= false
 # Files to build
 
 FILES_DSP = \
-	PluginSimpleChordGen.cpp
+	chords.cpp\
+	GuitarChords.cpp
+
 
 # --------------------------------------------------------------
 # Do some magic

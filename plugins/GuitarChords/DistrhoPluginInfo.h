@@ -18,7 +18,7 @@
 #define DISTRHO_PLUGIN_INFO_H_INCLUDED
 
 #define DISTRHO_PLUGIN_BRAND "DISTRHO"
-#define DISTRHO_PLUGIN_NAME  "SimpleChordGen"
+#define DISTRHO_PLUGIN_NAME  "GuitarChords"
 #define DISTRHO_PLUGIN_URI   "haradai/plugins/"
 
 #define DISTRHO_PLUGIN_HAS_UI           0

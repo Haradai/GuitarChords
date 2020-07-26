@@ -3,7 +3,7 @@
 
 <haradai/plugins/>
     a lv2:Plugin ;
-    lv2:binary <SimpleChordGen_dsp.so> ;
-    rdfs:seeAlso <SimpleChordGen_dsp.ttl> .
+    lv2:binary <GuitarChords_dsp.so> ;
+    rdfs:seeAlso <GuitarChords_dsp.ttl> .
 
 

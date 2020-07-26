@@ -16,7 +16,7 @@ submodules:
 libs:
 
 plugins: libs
-	$(MAKE) all -C plugins/SimpleChordGen
+	$(MAKE) all -C plugins/GuitarChords
 
 ifneq ($(CROSS_COMPILING),true)
 gen: plugins dpf/utils/lv2_ttl_generator
@@ -39,14 +39,14 @@ endif
 
 clean:
 	$(MAKE) clean -C dpf/utils/lv2-ttl-generator
-	$(MAKE) clean -C plugins/SimpleChordGen
+	$(MAKE) clean -C plugins/GuitarChords
 	rm -rf bin build
 
 install: all
-	$(MAKE) install -C plugins/SimpleChordGen
+	$(MAKE) install -C plugins/GuitarChords
 
 install-user: all
-	$(MAKE) install-user -C plugins/SimpleChordGen
+	$(MAKE) install-user -C plugins/GuitarChords
 
 # --------------------------------------------------------------
 
