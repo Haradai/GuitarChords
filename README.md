@@ -1,18 +1,13 @@
-# GenChord
+GuitarChords
 
-A chord generator using midi input and automatable variables.
-The plugin takes one note as midi input and generates a triad chord on top of it.
-By changing the Chord Type parameter you can change the chord "type" or "color".
+A midi guitar chord generator. It takes two input midi notes, and generates the corresponding ones of the desired chord to play as a 'real' guitar would do.
+The chord notes are hard written in the chords.cpp file.
 
-[0 - 0.125) -> midi passthrough (no chord)
+I would like to continue adding a strum speed variable and more ways of playing the same chord placing them on different octaves of the keyboard.
 
-[0.125 - 0.375) -> major 
-
-[0.375 - 0.625) -> minor 
-
-[0.625 - 0.875) -> augmented
-
-[0.875 - 1)     -> disminished
-
-Note:
-For now it has a bug; if you change the chord type while playing, some notes do not receive the "note off" signal 
+The lowest note tells the chord's root note and the interval with the consequent the chord type.
+1 semitone --> minor 3d
+2 semitone --> major 3d
+3 semitone --> dominant seventh
+4 semitone --> minor 7th
+5 semitone --> major 7th
