@@ -1,6 +1,6 @@
 GuitarChords
 
-A midi guitar chord generator. It takes two input midi notes, and generates the corresponding ones of the desired chord to play as a 'real' guitar would do.
+A midi guitar chord generator. It takes two input midi notes, and generates the corresponding ones of the desired chord as a 'real' guitar would do.
 The chord notes are hard written in the chords.cpp file.
 
 I would like to continue adding a strum speed variable and more ways of playing the same chord placing them on different octaves of the keyboard.
