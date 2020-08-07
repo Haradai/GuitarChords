@@ -7,4 +7,4 @@ I would like to continue adding a strum speed variable and more ways of playing 
 
 The lowest note tells the chord's root note and the interval with the consequent the chord type.
 
-![alt text](https://github.com/Haradai/GuitarChords/keyboard_ref.png?raw=true)
+![alt text](https://github.com/Haradai/GuitarChords/blob/master/keyboard_ref.png?raw=true)
